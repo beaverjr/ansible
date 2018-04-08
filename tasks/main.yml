@@ -15,7 +15,6 @@
   stat: path="/usr/sbin/zabbix_agentd"	
   register: is_zabbix_agentd
 
-#- block:
 
 - name: Install zabbix
   yum:
